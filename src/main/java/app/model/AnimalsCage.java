@@ -13,7 +13,7 @@ public class AnimalsCage {
 
     @Autowired
     @Qualifier("timer")
-    protected Timer timer;
+    private Timer timer;
 
     public void whatAnimalSay() {
         System.out.println("Say:");
